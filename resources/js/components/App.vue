@@ -167,7 +167,7 @@
             <div class="blue-bg pt-5 pb-5" >
                 <div class="container-home mt-0">
                     <b-row>
-                        <b-col class="d-md-none d-lg-block border-right" lg="8" md="8" xl="8" sm="12" >
+                        <b-col class="d-sm-none d-md-block border-right" lg="8" md="8" xl="8" sm="12" >
                                                 <h3 class="mb-0" >Perlu <strong>Bantuan ?</strong> Hubungi Kami : <strong>0274-5305505</strong> </h3>
                         </b-col>
                         <b-col lg="4" md="4" xl="4" sm="12" >
@@ -347,6 +347,12 @@ library.add(faCheckCircle, faCommentAlt)
     @media only screen and (max-width: 500px) {
         .live-chat {
             margin-top: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .live-chat {
+            width: 100%;
         }
     }
 </style>
